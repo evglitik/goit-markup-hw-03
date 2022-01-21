@@ -21,8 +21,8 @@ body {
     --header-bottom-line: #ececec;
     --btn-hover: #188ce8;
     --border-btn-radius: 4px;
-    --border-portfolio-text-card: #EEEEEE;
- }
+    --border-portfolio-text-card: #eeeeee;
+}
 
 .link {
     text-decoration: none;
@@ -199,7 +199,7 @@ img {
 /* ----------------------------PERECULIARITES */
 .peculiarities {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 47px;
 }
 
 .peculiarites-list {
@@ -239,7 +239,7 @@ img {
 
 /* ----------------------------ABAUT US + TEAM*/
 .about {
-    padding-top: 94px;
+    padding-top: 47px;
     padding-bottom: 94px;
 }
 
@@ -264,8 +264,8 @@ img {
 }
 
 .team {
-    padding-top: 188px;
-    padding-bottom: 124px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-container {
@@ -289,7 +289,8 @@ img {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    
+    text-align: center;
+
     color: var(--text-black);
 }
 
@@ -297,6 +298,7 @@ img {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+    text-align: center;
 
     color: var(--text-gray);
 }
@@ -311,9 +313,7 @@ img {
 
 .logo-footer {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: auto;
+    margin-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -414,7 +414,7 @@ img {
     padding-bottom: 20px;
     padding-left: 24px;
     border-right: 1px solid var(--border-portfolio-text-card);
-    border-bottom:  1px solid var(--border-portfolio-text-card);
+    border-bottom: 1px solid var(--border-portfolio-text-card);
     border-left: 1px solid var(--border-portfolio-text-card);
 }
 
@@ -424,7 +424,7 @@ img {
 
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
     letter-spacing: 0.06em;
 
     color: var(--text-black);
@@ -451,3 +451,9 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+/* not work------------------- !!!!!!!!!!!!!!!!!*/
+/* .footer-item, .logo-footer, .address  {
+    max-width: 235px;
+    max-width: 235px;
+} */
